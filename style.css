@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.swiper {
+    width: 35%;
+    height: 65%;
+    box-shadow: 1px 2px 10px white;
+
+}
+
+.swiper-slide img {
+    width: 100%;
+
+}
+
+img {
+    object-fit: contain;
+}
+
+/*  Logo
+
+    font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: .11rem;
+    line-height: 1.5em;
+    color: blueviolet;
+    text-shadow: 1px 1px 1px black;
+    border: coral;
+    border-style: solid;
+    padding: 15px;
+*/
